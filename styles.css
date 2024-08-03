@@ -1,82 +1,83 @@
 :root {
-    --main-container-bg: #0a0a23;
-    --white-text: #ffffff;
-    --black-text: #0a0a23; 
-    --purple-border-and-btn:#5a01a7;
-    --form-box-shadow: #002ead;
-    --definition-bg: #00471b;
-    --body-font: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  body {
-    background-color: var(--main-container-bg);
-    color: var(--white-text);
-    font-family: var(--body-font);
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  #palindrome-check,
-  #check-btn,
-  #palindrome-definition-container {
-    border-radius: 15px;
-  }
-  
-  #main-container {
-    width: 375px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 15px; 
-  }
-  
-  .freecodecamp-logo {
-    width: 225px;
-  }
-  
-  #palindrome-check {
-    background-color: var(--white-text);
-    color: var(--black-text);
-    padding: 15px 0;
-  }
-  
-  #palindrome-check label {
-    font-size: smaller;
-  }
-  
-  #input-btn-container {
-    margin: 15px 0;
-  }
-  
-  #text-input {
-    border: none;
-    border-bottom: 3px solid var(--purple-border-and-btn);
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  #check-btn {
-    background-color: var(--purple-border-and-btn);
-    color: var(--white-text);
-    padding: 8px;
-    border: none;
-    width: 80px;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .hide {
-    display: block;
-  }
-  
-  #palindrome-definition-container {
-    background-color: var(--definition-bg);
-    padding: 8px;
-  }
-  
-  #palindrome-definition {
-    padding: 0 5px;
-  }
+  --main-container-bg: #0a0a23;
+  --white-text: #ffffff;
+  --black-text: #0a0a23; 
+  --purple-border-and-btn:#5a01a7;
+  --form-box-shadow: #002ead;
+  --definition-bg: #00471b;
+  --body-font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: var(--main-container-bg);
+  color: var(--white-text);
+  font-family: var(--body-font);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#palindrome-check,
+#check-btn,
+#palindrome-definition-container {
+  border-radius: 15px;
+}
+
+#main-container {
+  width: 375px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.freecodecamp-logo {
+  width: 225px;
+}
+
+#palindrome-check {
+  background-color: var(--white-text);
+  color: var(--black-text);
+  padding: 15px 0;
+  border-bottom: 4px solid var(--form-box-shadow);
+}
+
+#palindrome-check label {
+  font-size: smaller;
+}
+
+#input-btn-container {
+  margin: 15px 0;
+}
+
+#text-input {
+  border: none;
+  border-bottom: 3px solid var(--purple-border-and-btn);
+  font-weight: bold;
+  text-align: center;
+}
+
+#check-btn {
+  background-color: var(--purple-border-and-btn);
+  color: var(--white-text);
+  padding: 8px;
+  border: none;
+  width: 80px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.hide {
+  display: block;
+}
+
+#palindrome-definition-container {
+  background-color: var(--definition-bg);
+  padding: 8px;
+}
+
+#palindrome-definition {
+  padding: 0 5px;
+}
