@@ -4,8 +4,6 @@ const textInput = document.querySelector("#text-input");
 const checkButton = document.querySelector("#check-btn");
 const result = document.querySelector("#result");
 
-const reset = () => textInput.value = "";
-
 const cleaner = (str) => {
   const regex = /[\s~`'"_\-+=!@#$%^&*(){}|\\\/?.>,<:;]/g;
 
@@ -45,8 +43,6 @@ const palindromeCheck = () => {
     };
 
     result.classList.remove("hide");
-
-    // reset();
   } else {
     const errMsg = "Please input a value";
     alert(errMsg);
