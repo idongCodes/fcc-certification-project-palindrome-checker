@@ -69,9 +69,6 @@ body {
   cursor: pointer;
 }
 
-.hide {
-  display: none;
-}
 #palindrome-definition-container {
   background-color: var(--definition-bg);
   padding: 8px;
