@@ -46,7 +46,7 @@ const palindromeCheck = () => {
 
     result.classList.remove("hide");
 
-    reset();
+    // reset();
   } else {
     const errMsg = "Please input a value";
     alert(errMsg);
