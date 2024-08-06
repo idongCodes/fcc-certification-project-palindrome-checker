@@ -23,8 +23,12 @@ const reverseValue = (str) => {
   return str;
 };
 
+const resetInput = () => textInput.textContent = "";
+
 // Main function to handle everything
 const palindromeCheck = () => {
+  result.classList.remove("hide");
+
   let str = textInput.value;
 
   let strCopy = [...str].join('');
@@ -42,7 +46,7 @@ const palindromeCheck = () => {
       result.innerHTML = `<span style="font-weight:bold;">${str}</span> is not a palindrome`;
     };
 
-    result.classList.remove("hide");
+    resetInput();
   } else {
     const errMsg = "Please input a value";
     alert(errMsg);
